@@ -1,0 +1,349 @@
+
+/*========================================================================================================================
+==========================================================================================================================
+==========================================================================================================================
+==========================================================================================================================
+==========================================================================================================================
+==========================================================================================================================*/
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links li a{
+  text-decoration: none;
+  color: mediumspringgreen;
+  padding: 1rem;
+  display: block;
+}
+.navbar-links li:hover{
+  background-color: #555;
+}
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar{
+  height: 3px;
+  background-color: white;
+  border-radius: 10px;
+}
+  .toggle-button{
+    display: flex;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li{
+    text-align: center;
+  }
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+  .navbar-links.active{
+    display: flex;
+  }
+  /*==============================Quick links=================================*/
+  .section h1{
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .section .box{
+    height: 70px;
+    width: 360px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .section .box a{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20;
+    padding-right: 20;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    color: #191919;
+    border-radius: 10px;
+    border-bottom: 5px solid red;
+  }
+  .section .box a:hover{
+    transition: al, 0.4s, ease;
+    color: #fff;
+    text-decoration: none;
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+  }
+/*==========================back to top button================================*/
+
+/*=================================Main-code==================================*/
+html,body{
+  width:100%;
+  height: 100%;
+  padding:0;
+  margin: 0px;
+  background-color: aqua;
+}
+
+.my_nav_bar{
+    position:sticky;
+    top:0;
+    z-index:99999;
+}
+
+.ol{
+ margin-left: 10px;;
+ float: left;
+ font-size: 20px;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.img1{
+  border-radius: 360%;
+  width: 200px;
+  height: 200px;
+  /*margin-top: 30px;*/
+  /*margin:50px 0px;*/
+}
+
+marquee{
+  height: 300px;
+  padding: 20px;
+  margin: auto;
+}
+.wrapper-2 {
+  border-radius: 5%;
+  background-color: black;
+  margin: 0 auto;
+  width: 100%;
+  height: 80%;
+}
+
+#acres{
+  color: white;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+#Makaan-1{
+  color: white;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+#acres:hover{
+  color: orange;
+}
+
+#Makaan:hover{
+  color: white;
+}
+
+
+#Makaan-1:hover{
+  color: orange;
+}
+
+ol{
+  font-size: 30px;
+  margin-right: 20px;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ol li{
+  display: inline-block;
+}
+
+ol li a{
+  border-radius: 10%;
+  text-decoration: none;
+  color: orangered;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ol li a:hover {
+  background-color: orangered;
+  color:white;
+  font-size: 34px;
+}
+.simp{
+  width: 100%;
+}
+.container{
+  width: 90%;
+}
+p {
+  font-size: 21px;
+  font-family: arial;
+  font-style: italic bold;
+}
+/*==============================================================================
+==================================:locations:===================================
+==============================================================================*/
+html{
+  background-color: aqua;
+}
+.neo-text{
+  color: red;
+}
+
+.neo-img{
+  height: 200px;
+  width: 300px;
+}
+
+.foodmax-text{
+  color: red;
+}
+
+.foodmax-img{
+  height: 200px;
+  width: 300px;
+
+}
+
+.trends-text{
+  color: red;
+}
+
+.trends-img{
+  height: 200px;
+  width: 300px;
+}
+
+.vibgyor-text{
+  color: red;
+}
+
+.vibgyor-img{
+  height: 200px;
+  width: 300px;
+}
+
+.dominos-text{
+  color: red;
+}
+.dominos-img{
+  height: 200px;
+  width: 300px;
+}
+.notre_dame-text{
+  color: red;
+}
+
+.notre_dame-img{
+  height: 200px;
+  width: 300px;
+}
+.kantisweets-text{
+  color: red;
+}
+.kantisweets-img{
+  height: 200px;
+  width: 300px;
+}
+.blossom-text{
+  color: red;
+}
+.blossom-img{
+  height: 200px;
+  width: 300px;
+}
+.harvest-text{
+  color: red;
+}
+.harvest-img{
+  width: 300px;
+  height: 200px;
+}
+.AUM_petroleums-text{
+  color: red;
+}
+.AUM_petroleums-img{
+  width: 300px;
+  height: 200px;
+}
+h1{
+font-size: 30px;
+color: maroon;
+font-family: Pacifico;
+}
+.line{
+    height: 6px;
+    background-color: #fc6203;
+    margin: 8px auto;
+    width: 70px;
+    padding-right: 505px;
+}
+/*==============================================================================
+===================================:Events:=====================================
+==============================================================================*/
+iframe{
+  margin-left: 300px;
+}
+h2{
+  font-size: 20px;
+  color: orange;
+}
+.fests{
+  width: 240px;
+  height: 180px;
+}

@@ -1,0 +1,468 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="images/MahaveerOrchids-Logo.png" type="image/icon type">
+    <title>Facilities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Mahaveer Orchids</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./facilities.html">FACILITIES</a></li>
+                <li><a href="./events.html">EVENTS</a></li>
+                <li><a href="./location.html">NEARBY LOCATIONS</a></li>
+                <li><a href="./contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <center>
+            <h1>There are many facilities in Mahaveer Orchids like:</h1>
+        </center><br>
+        <div class="line"></div>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                font-family: Arial;
+            }
+
+            .header {
+                text-align: center;
+                padding: 32px;
+            }
+
+            .row {
+                display: -ms-flexbox;
+                /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap;
+                /* IE10 */
+                flex-wrap: wrap;
+                padding: 0 4px;
+            }
+
+            /* Create four equal columns that sits next to each other */
+            .column {
+                -ms-flex: 25%;
+                /* IE10 */
+                flex: 25%;
+                max-width: 105%;
+                padding: 0 4px;
+            }
+
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 300px;
+            }
+
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media screen and (max-width: 800px) {
+                .column {
+                    -ms-flex: 50%;
+                    flex: 50%;
+                    max-width: 50%;
+                }
+            }
+
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+                .column {
+                    -ms-flex: 100%;
+                    flex: 100%;
+                    max-width: 100%;
+                }
+            }
+
+        </style>
+        <center>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#tennis">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/AGZhsQs6/project-images/Mahaveer-Orchids-4.jpg">
+                <hr>
+                <p class="text-danger">Tennis court</p>
+            </div>
+            <div id="tennis" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Tennis court</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/AGZhsQs6/project-images/Mahaveer-Orchids-4.jpg">
+                            <p class="p_modal">The tennis court is located in block A ground floor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#walkpark">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://im.proptiger.com/1/502341/80/orchids-landscaped-gardens-100976558.jpeg">
+                <hr>
+                <p class="text-danger">Walking park</p>
+            </div>
+            <div id="walkpark" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Walking park</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://im.proptiger.com/1/502341/80/orchids-landscaped-gardens-100976558.jpeg">
+                            <p class="p_modal">This is located next to the main gate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#playpark">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://im.proptiger.com/1/502341/80/orchids-children-s-play-area-100976560.jpeg">
+                <hr>
+                <p class="text-danger">Playground</p>
+            </div>
+            <div id="playpark" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Playground</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://im.proptiger.com/1/502341/80/orchids-children-s-play-area-100976560.jpeg">
+                            <p class="p_modal">The plagrounds are located in basement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#basket">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/o76tIMJI/project-images/Mahaveer-Orchids-5.jpg">
+                <hr>
+                <p class="text-danger">Basketball court</p>
+            </div>
+            <div id="basket" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Basketball court</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/o76tIMJI/project-images/Mahaveer-Orchids-5.jpg">
+                            <p class="p_modal">This is located in block B ground floor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#swim">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://is1-3.housingcdn.com/012c1500/8050abe0f505d9a437031e266f631ea1/v0/medium/mahaveer_orchids-choodasandra-bengaluru-mahaveer_group.jpg">
+                <hr>
+                <p class="text-danger">Swimming pool</p>
+            </div>
+            <div id="swim" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Swimming pool</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://is1-3.housingcdn.com/012c1500/8050abe0f505d9a437031e266f631ea1/v0/medium/mahaveer_orchids-choodasandra-bengaluru-mahaveer_group.jpg">
+                            <p class="p_modal">This is located next to the main gate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#bill">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/9iXk1aOM/project-images/Mahaveer-Orchids-14.jpg">
+                <hr>
+                <p class="text-danger">Billiards</p>
+            </div>
+            <div id="bill" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Billiards</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/9iXk1aOM/project-images/Mahaveer-Orchids-14.jpg">
+                            <p class="p_modal">This is located in the club house.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#secure">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://images.outlookindia.com/public/uploads/articles/2019/5/1/security-guard.jpg
+">
+                <hr>
+                <p class="text-danger">Security gaurds</p>
+            </div>
+            <div id="secure" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Security gaurds</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://images.outlookindia.com/public/uploads/articles/2019/5/1/security-guard.jpg
+">
+                            <p class="p_modal">They are in front of the main gate and near all lifts/elevators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#club">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://is1-3.housingcdn.com/012c1500/728e3c8d76a43880ac81cf05cb827b25/v0/medium.jpg
+">
+                <hr>
+                <p class="text-danger">Club house</p>
+            </div>
+            <div id="club" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Club house</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://is1-3.housingcdn.com/012c1500/728e3c8d76a43880ac81cf05cb827b25/v0/medium.jpg
+">
+                            <p class="p_modal">This is located behind the swimming pool</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#gym">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/qROW3vnp/project-images/Mahaveer-Orchids-12.jpg
+">
+                <hr>
+                <p class="text-danger">Gym</p>
+            </div>
+            <div id="gym" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Gym</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/qROW3vnp/project-images/Mahaveer-Orchids-12.jpg
+">
+                            <p class="p_modal">This is located in the club house.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#elevator">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/aDWOxmpr/project-images/Mahaveer-Orchids-17.jpg
+">
+                <hr>
+                <p class="text-danger">Elevators</p>
+            </div>
+            <div id="elevator" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Elevators</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/aDWOxmpr/project-images/Mahaveer-Orchids-17.jpg
+">
+                            <p class="p_modal">These are located in the Basement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#parklot">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/aDQP1Dm3/project-images/Mahaveer-Orchids-15.jpg
+">
+                <hr>
+                <p class="text-danger">Parking lots</p>
+            </div>
+            <div id="parklot" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Parking lots</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/aDQP1Dm3/project-images/Mahaveer-Orchids-15.jpg
+">
+                            <p class="p_modal">These are located in the basement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 book" data-toggle="modal" data-target="#libs">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRouRQzFGX0WVxyRCx69qevpFYihz5mRvP_wA&usqp=CAU
+">
+                <hr>
+                <p class="text-danger">library</p>
+            </div>
+            <div id="libs" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">library</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img style="height: 400px; width: 550px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRouRQzFGX0WVxyRCx69qevpFYihz5mRvP_wA&usqp=CAU
+">
+                            <p class="p_modal">This is located in the club house.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12.5 col-md-12.5 col-sm-12.5 col-xs-25 book" data-toggle="modal" data-target="#tabletennis">
+                <img style="height: 250px; width: 350px; margin-top: 5px;" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/Z7zbrT3H/project-images/Mahaveer-Orchids-21.jpg
+">
+                <hr>
+                <p class="text-danger">Table tennis</p>
+            </div>
+            <div id="tabletennis" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Table tennis</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="https://projects-data.s3.ap-southeast-1.amazonaws.com/city-0/Z7zbrT3H/project-images/Mahaveer-Orchids-21.jpg
+">
+                            <p class="p_modal">This is located in the club house.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </div>
+    </div>
+    </center><br><br><br>
+    <div>
+        <marquee width="98%" scrollamount="17" direction="left" behavior="scroll" bgcolor="aqua">
+            <a href="https://goodbox.in/store/neo-supermarket-app" target="blank_"><img class="img1" src="./images/Neo-logo.jpeg"></a>
+            <a href="https://www.justdial.com/Bangalore/Foodmax-Hypermart-Naganathapura/080PXX80-XX80-180901021703-V6A5_BZDET" target="blank_"><img class="img1" src="./images/foodmax-logo.png"></a>
+            <a href="https://pizzaonline.dominos.co.in/" target="blank_"><img class="img1" src="./images/Domino.jpg"></a>
+            <a href="https://www.vibgyorhigh.com/" target="blank_"><img class="img1" src="./images/vibgyor-high.jpg"></a>
+            <a href="http://notredameacademyblr.com/" target="blank_"><img class="img1" src="./images/notre.jpg"></a>
+            <a href="https://www.harvestinternationalschool.in/" target="blank_"><img class="img1" src="./images/harvest.png"></a>
+            <a href="https://www.kantisweets.com/" target="blank_"><img class="img1" src="./images/kanti.jpg"></a>
+            <a href="https://www.trends.ajio.com/" target="blank_"><img class="img1" src="./images/Reliance-Trends.png"></a>
+            <a href="https://www.tyreempire.in/" target="blank_"><img class="img1" src="./images/tyre.png"></a>
+            <a href="https://www.practo.com/bangalore/hospital/blossom-multispecialty-hospital-electronics-city/reviews" target="blank_"><img class="img1" src="./images/blossom.jpg"></a>
+            <a href="https://www.apollohospitals.com/" target="blank_"><img class="img1" src="./images/apollo.png"></a>
+            <a href="http://www.mahaveerranches.co.in/" target="blank_"><img class="img1" src="./images/ranches.jpg"></a>
+            <a href="https://www.justdial.com/Bangalore/Raksha-Multispeciality-Hospital-Near-Police-Quarters-Nandhini-Layout/080P5609104_BZDET" target="blank_"><img class="img1" src="./images/raksha.jpg"></a>
+        </marquee>
+    </div>
+    <section style="background-color: black;" class="section mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <h1 class="text-center mb-5">Quick links</h1><br><br>
+            <div class="row">
+                  <div style="width: 780px;"  class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="./index.html">Home</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="https://www.99acres.com/" target="blank_">99acres.com</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                  <div style="width: 780px;" class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="./Facilities.html">Facilities</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="https://www.commonfloor.com/mahaveer-orchids-bangalore-rent/prns-0mvhxd" target="blank_">commonfloor.com</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+              <div style="width: 780px;" class="col-md-4 col-md-4 col-8">
+                <div class="box mx-0">
+                    <a href="./events.html">Events</a>
+                </div>
+              </div>
+                  <div class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="https://www.makaan.com/" target="blank_">Makaan.com</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                  <div style="width: 780px;" class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="./location.html">Nearby locations</a>
+                    </div>
+                  </div>
+                  <div style="width: 0%;" class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="https://www.99acres.com/" target="blank_">Mahaveergroup.in</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+              <div style="width: 780px;" class="col-md-4 col-md-4 col-8">
+                <div class="box mx-0">
+                  <a href="./contact.html">Contact us</a>
+                </div>
+              </div>
+                  <div style="width: 0%;" class="col-md-4 col-md-4 col-8">
+                    <div class="box mx-0">
+                      <a href="https://www.magicbricks.com/flats-in-bangalore-for-sale-pppfs?mbtracker=google_paid_brand_desk_bangalore&ccode=brand_sem&gclid=CjwKCAiAv4n9BRA9EiwA30WNDyIjNv-sxkr6CyNRb1Q3nLmgySll2HNg3YsBy1R5_udsuVuOrOYe9hoCmEgQAvD_BwE" target="blank_" >Magicbricks.com</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+    </body>
+</html>
